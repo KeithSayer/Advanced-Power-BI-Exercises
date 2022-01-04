@@ -1,3 +1,5 @@
+// Date Diff example from Advanced Power BI Workshop
+
 Days Since = DATEDIFF(
   FIRSTDATE(
     SalesData[Posting_Date]),
