@@ -1,6 +1,7 @@
-// Date Diff example from Advanced Power BI Workshop
-
-Days Since = DATEDIFF(
+Days Since = 
+//DateDiff function example from Power BI Advanced Workshop
+DATEDIFF(
+  //FirstDate() is required here to isolate a single date
   FIRSTDATE(
     SalesData[Posting_Date]),
   TODAY(),
