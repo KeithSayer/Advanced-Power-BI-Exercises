@@ -4,11 +4,12 @@ var salespersonname = LOOKUPVALUE(
     SalesPeople[Sales Person],
     SalesPeople[Code],
     SalesData[SalesPersonCode]
-    )
+)
 //return literally returns us to the code right before we started inserting variables, so it's the actual function
 return
 If(
     //the condition is going to be the length of the salespersonname variable. If no match was found, it is 0
     LEN(salespersonname) = 0,
     "Not Assigned",
-    salespersonname)
+    salespersonname
+)

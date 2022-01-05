@@ -1,0 +1,6 @@
+CALCULATE(
+    SUM(SalesData[Quantity],
+    REMOVEFILTERS(SalesData[Posting_Date])
+)
+//the above is the modified version of the simple formula below that removes any affecting date filters in the visual:
+SUM(SalesData[Quantity])
